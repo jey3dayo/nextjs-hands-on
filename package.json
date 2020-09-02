@@ -1,0 +1,9 @@
+{
+  "name": "nextjs-hands-on",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "license": "UNLICENSED"
+}
