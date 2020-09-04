@@ -42,6 +42,9 @@ const Example = () => {
           <h2>Example</h2>
           <ul>
             <li>
+              <Link href="/example/reactSample">React sample</Link>
+            </li>
+            <li>
               <Link href="/example/click">handle click</Link>
             </li>
             <li>
