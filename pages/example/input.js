@@ -10,7 +10,7 @@ const Example = () => {
     setText('');
   };
 
-  const handleChange = (e) => {
+  const handleChange = e => {
     const { value } = e.target;
     setText(value);
     console.log(`text: ${value}`);

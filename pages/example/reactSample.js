@@ -27,7 +27,7 @@ const Example = () => {
       <Description>{title}</Description>
 
       <h2>MAP操作</h2>
-      {data.map((v) => (
+      {data.map(v => (
         <div key={v.id}>text: {v.text}</div>
       ))}
 

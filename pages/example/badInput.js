@@ -5,7 +5,7 @@ import TextField from '@material-ui/core/TextField';
 const Example = () => {
   let text = 'text';
 
-  const handleChange = (e) => {
+  const handleChange = e => {
     text = e.target.value;
     console.log(`text: ${text}`);
   };

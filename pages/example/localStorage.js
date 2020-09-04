@@ -17,7 +17,7 @@ const Example = () => {
     setText('');
   };
 
-  const handleChange = (e) => {
+  const handleChange = e => {
     const { value } = e.target;
     setText(value);
     localStorage.setItem('text', value);
