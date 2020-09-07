@@ -8,7 +8,7 @@ const Title = ({ title }) => {
 
 // childrenにはタグの中身が入る
 const Description = ({ children }) => {
-  return <div>`説明文: ${children}`</div>;
+  return <div>{`説明文: ${children}`}</div>;
 };
 
 const Example = () => {
