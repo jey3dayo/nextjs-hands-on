@@ -11,7 +11,7 @@ const Example = () => {
     if (savedText) {
       setText(savedText);
     }
-  });
+  }, []);
 
   const handleClick = () => {
     setText('');
